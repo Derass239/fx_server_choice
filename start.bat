@@ -46,8 +46,6 @@ echo.
 
 echo You chose !choiceServer[%selectServer%]!
 
-echo "%cd%"
-
 "%cd%""/[ARTIFACT]/"!choiceArtifact[%selectArtifact%]!"//FXServer.exe" +set serverProfile !choiceServer[%selectServer%]!
 
 pause
